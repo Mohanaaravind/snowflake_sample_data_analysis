@@ -1,3 +1,6 @@
+-- This model will take lot of time. Please understand what you do before running this model.
+
+
 {% set relations = dbt_utils.get_relations_by_prefix(
     schema="tpcds_sf10tcl", prefix="", database="snowflake_sample_data"
 ) %}

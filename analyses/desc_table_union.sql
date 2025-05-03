@@ -50,3 +50,5 @@ select concat(count(*), ' rows inserted') from snowflake_sample_cloned.public.te
 
 union
 select concat(count(distinct table_name), ' table details inserted') from snowflake_sample_cloned.public.temp
+
+-- select * from snowflake_sample_cloned.public.temp
